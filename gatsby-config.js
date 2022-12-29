@@ -6,5 +6,7 @@ module.exports = {
     title: `Explore the Planets`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss',
+  ],
 }
