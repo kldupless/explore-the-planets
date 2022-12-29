@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",
@@ -38,7 +39,7 @@ module.exports = {
         antonio: ['"Antonio"', ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: {
-        'star-pattern': "url('/assets/background-stars.svg')"
+        'star-pattern': "url('/src/images/background-stars.svg')"
       },
       backgroundSize: {
         '50%': '50%'
